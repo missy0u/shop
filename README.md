@@ -6,11 +6,10 @@
 
 ## CSS RESET
 
->>>
-base.css 有详尽注释，开箱即用
 
-PS:交付时别忘了把自己没用到的CSS RESET去掉
->>>
+ > base.css 有详尽注释，开箱即用
+ > PS:交付时别忘了把自己没用到的CSS RESET去掉
+
 
 ## 循环列表HTML结构尽量简单
 
@@ -81,7 +80,7 @@ PS:交付时别忘了把自己没用到的CSS RESET去掉
 - Safari (latest)
 - Opera (latest)
 
->>>
+ ```
 PS:
 
 1.分页按程序给出的HTML格式要求兼容的，也支持到ie6+，可参考
@@ -89,6 +88,6 @@ PS:
 2.由于项目简单样式命名基本没有层级，例如table
 
 3.需求原因只做了PC端固定布局，没有实现响应式
->>>
+ ```
 
-### 更多精彩等你发现，欢迎[Issues](//git.oa.com:8080/fed/shop/issues)
+### 更多精彩等你发现，欢迎[Issues](//github.com/missy0u/shop/issues)
