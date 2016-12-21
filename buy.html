@@ -68,11 +68,6 @@
     </div>
     <script src="//image.duoyi.com/js/jquery-1.12.4.min.js"></script>
     <script>
-    $(".tab .item").click(function(){
-        $(this).addClass("active").siblings().removeClass("active");
-        var index = $(".tab .item").index(this);
-        $(".detail>div").eq(index).show().siblings().hide();
-    });
 
     (function (fn) {
         if (typeof define === 'function' && define.amd) {
@@ -193,8 +188,13 @@
         return numberInput;
     });
     $(function(){
-		numberInput({selector: '#ipt1'});
-	});
+      $(".tab .item").click(function(){
+          $(this).addClass("active").siblings().removeClass("active");
+          var index = $(".tab .item").index(this);
+          $(".detail>div").eq(index).show().siblings().hide();
+      });
+  		numberInput({selector: '#ipt1'});
+  	});
     </script>
 </body>
 </html>
